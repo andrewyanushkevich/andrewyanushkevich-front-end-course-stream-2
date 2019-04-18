@@ -1,0 +1,317 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center; 
+}
+.logo-wrapper{
+    flex-basis: 45%;
+}
+.logo-wrapper > img {
+    margin-left: 200px;
+    height: 30px;
+    width: auto;
+}
+.navigation-buttons{
+    flex-basis: 45%;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.navigation-button{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+.navigation-button:hover{
+    border-bottom: 1px solid white;
+}
+.greetings-text{
+    padding: 10vw;
+    flex-basis: 100vw;
+    font-size: 2vw;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./photos/Header.JPG");
+    background-repeat: round;
+    height: 20vw;
+}
+.header-buttons{
+    display: flex;
+}
+.login-button{
+    width: 50%;
+}
+.login-button > button{
+    width: 100%;
+    background-color: darkgreen;
+    height: 5vw;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.login-button:after {
+    content: '';
+    border-top: 100px;
+    width: 100px;
+    background-color: yellow;
+
+}
+.register-button{
+    width: 50%;
+}
+.register-button > button{
+    border: none;
+    width: 100%;
+    background-color: green;
+    height: 5vw;
+    cursor: pointer;
+    text-align: center;
+}
+.offer-text{
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+}
+.domain{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    margin-top: 3vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
+.domain > div {
+    padding: 2px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.domain > div > input{
+    height: 2vw;
+    width: 52vw;
+    border: none;
+}
+.domain > div > select{
+    width: 5vw;
+    height: 2vw;
+    border: none;
+    cursor: pointer;
+}
+.offers{
+    width: 60vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: center;
+}
+.offers > div {
+    display: flex;
+    flex-direction: row;
+}
+.offers > div > div{
+    margin: 1px;
+    padding: 2vw;
+    flex-basis: 17vw;
+    height: 100%;
+    font-size: 1vw;
+    border: 1px solid grey;
+}
+.packages {
+    flex-basis: 100%;
+    background-image: url("./photos/Package.JPG");
+    background-repeat: no-repeat;
+    margin: 5vw;
+}
+.package{
+    margin: 3vw;
+    flex-basis: 15vw;
+    border: 1px solid grey;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 1vw;
+}
+.package > div {
+    margin: 1vw;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    color: black;
+}
+.package > div > div {
+    flex-basis: 20vw;
+    display: flex;
+    flex-direction: row;
+    margin: 1vw;
+    justify-content: space-between;
+    text-align: left;
+    color: lightgray;
+}
+.basic-package:hover{
+    border-top: 2px solid yellow;
+}
+.normal-package:hover{
+    border-top: 2px solid gray;
+}
+.big-package:hover{
+    border-top: 2px solid orange;
+}
+.biggest-package:hover{
+    border-top: 2px solid darkgreen;
+}
+.basic-package-color{
+    color: yellow;
+    font-weight: 900;
+}
+.normal-package-color{
+    color: gray;
+    font-weight: 900;
+}
+.big-package-color{
+    color: orange;
+    font-weight: 900;
+}
+.biggest-package-color{
+    color: darkgreen;
+    font-weight: 900;
+}
+.about-us-bar{
+    display: flex;
+    flex-direction: row;
+    border-top: dotted;
+    border-color: lightgrey;
+    margin: 2vw;
+}
+.about-us{
+    width: 40vw;
+    padding-right: 5vw;
+    border-right: dotted;
+    border-color: lightgrey;
+    font-size: 1vw;
+}
+.designers{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.designers > div {
+    display: flex;
+    flex-direction: column;
+    margin: 2vw 5vw;
+    text-align: center;
+    font-size: 1vw;
+}
+.designers > div > ul {
+    display: flex;
+    flex-direction: row;
+}
+.designers > div > ul > li{
+    margin: 1vw 1vw 1vw 0vw;
+    cursor: pointer;
+}
+.feedback-bar{
+    background-image: url("./photos/Feedback.JPG");
+    background-repeat: round;
+    height: 15vw;
+    width: 100vw;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+.quote{
+    color: white;
+    text-align: center;
+    padding: 4vw;
+    font-size: 1vw;
+}
+.radio{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+}
+.radio > div {
+    border-right: 1.5px solid gray;
+    padding-right: 1vw;
+    font-size: 1vw;
+}
+.radio > input {
+    cursor: pointer;
+    height: 1vw;
+    width: 1vw;
+}
+.services {
+    display: flex;
+    flex-direction: row;
+    margin: 3vw;
+    padding: 3vw;
+    font-size: 1vw;
+}
+.services > div {
+    flex-basis: 20vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 3vw;
+}
+.services > div > img {
+    margin: auto;
+    display: flex;
+    width: 5vw;
+    height: 5vw;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: gray;
+    font-size: 1vw;
+}
+.footer-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-left: 10vw;
+    border-bottom: 1px solid gray;
+}
+.footer-logo {
+    width: 45vw;
+}
+.footer-logo > img{
+    width: auto;
+    height: 2vw;
+}
+.footer-buttons {
+    flex-basis: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-buttons > div {
+    cursor: pointer;
+}
+.footer-buttons > div:hover {
+    color: white;
+}
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 5vw 10vw;
+}
+.footer-menu > div {
+    flex-basis: 25%;
+}
+.footer-menu > div > ul > li:hover{
+    color: white;
+}
