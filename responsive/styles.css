@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+}
+
+.personal {
+    display: flex;
+    flex-direction: row;
+}
+
+.us, .customcare, .myAccount {
+    margin: 2px;
+    background-color: black;
+    color: white;
+}
+
+.us {
+    width: 5vw;
+}
+
+.customcare {
+    width: 60vw;
+}
+
+.myAccount {
+    width: 10vw;
+}
+
+.search {
+    color: white;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding: : 5%, 20%;
+}
+
+.menu-tablet {
+    display: none;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.filters {
+    border: none;
+    width: 13vw;
+}
+
+.yourcard, .cart {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    border-color: grey;
+}
+
+.cart {
+    text-align: right;
+    border: 2px solid lightgrey;
+}
+
+.lookshop {
+    width: 15vw;
+    height: 5vw;
+}
+
+.radios {
+    text-align: center;
+}
+
+.div-onclick {
+    background-color: orange;
+}
+
+.mainbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainbar > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainbar > div > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.sort {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.sort > ul > li {
+    display: flex;
+    flex-direction: row;
+    padding: 5vw;
+}
+
+.item {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: orangered;
+    width: 98vw;
+}
+
+.itemDescription {
+    overflow: hidden;
+    background-color: lightgrey;
+    text-overflow: ellipsis;
+    width: inherit;
+    word-wrap: nowrap;
+    text-align: center;
+}
+
+.itemDescription > button {
+    background-color: orangered;
+    text-align: center;
+}
+
+.leftitem, .rightItem > div {
+    display: inline-flex;
+    flex-direction: row;
+    height: 15vw;
+    width: 10vw;
+}
+
+.leftitem > div > a > img {
+    margin: 1vw, 1vw, 1vw, 0vw;
+    width: 19vw;
+}
+
+.centerItem {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.centerItem > div {
+    width: 19vw;
+    margin: 0.5vw;
+}
+
+.centerItem > div > a > img {
+    width: 19vw;
+}
+
+.rightItem > div > a > img {
+    margin: 1vw, 0vw, 1vw, 1vw;
+}
+
+.clearenceIcon {
+    text-align: center;
+}
+
+.clearenceItem {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.clearenceItem > ul > li {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.brands {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    overflow: hidden;
+}
+
+.brands > h3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+}
+
+.brands > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.brands > ul > li {
+    margin: 2vw;
+    overflow: hidden;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+}
+
+.footer > div {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-lookshop {
+    text-align: center;
+}
+
+.paymentSystems {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 1vw;
+    overflow: hidden;
+}
+
+.paymentSystems > p {
+    margin: 2vw, 0vw, 2vw, 30vw;
+}
+
+.paymentSystems > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.paymentSystems > ul > li {
+    margin: 1vw;
+}
+
+.social-nets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.social-nets > ul > li > i {
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 769px) {
+    .leftItem, .rightItem {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-tablet {
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .menu-bar {
+        width: 100vw;
+        background-color: orangered;
+        display: inline-flex;
+        flex-direction: column;
+    }
+}
